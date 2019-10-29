@@ -1,4 +1,13 @@
-## GriPy: Geofísica de Reservatório Interativa em Python
+# GriPy-X
+
+**GriPy-X** is a fork of [**GriPy**](https://github.com/giruenf/GRIPy) project developed by Grupo de Inferência de Reservatório [(GIR)](http://www.giruenf.net/) at Universidade Estadual do Norte Fluminense [(UENF)](http://www.uenf.br/).
+
+
+## History
+
+Since 2015, I have been working for 4 years in **GriPy** development as part of my MSc Thesis.
+
+The main idea here is 
 
 **GriPy**, acrônimo para Geofísica de Reservatório Interativa em Python, como explicitamente indicado, é um aplicativo escrito em linguagem Python e bibliotecas especialistas, projetado especialmente para a execução de estudos de caracterização e modelagem petrofísica probabilística com integração de dados e informações de rocha-perfil-sísmica.  
 O início de seu desenvolvimento ocorreu em 2013, através de um projeto patrocinado pela PETROBRAS com recursos da cláusula de P&D da Agência Nacional de Petróleo (ANP). O amadurecimento da consolidação da arquitetura do software foi seguido da proposta aprovada pela PETROBRAS de distribuição livre dos módulos básicos do GriPy na modalidade de código aberto (_open source_), com possibilidade de construção de módulos específicos na forma de _plugins_ com acesso aberto ou restrito.  
@@ -17,4 +26,3 @@ O desenvolvimento do software é conduzido por pesquisadores do Grupo de Inferê
 * wxPython 4.0.0 (ou maior)
 
 Uma boa ferramenta para a utilização do software, embora não seja a única, é o [Anaconda](https://www.continuum.io/downloads), pois conta com todas as bibliotecas necessárias (exceto o versão wxPython), assim como com um ambiente de desenvolvimento completo.
-

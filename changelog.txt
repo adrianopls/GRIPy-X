@@ -1,9 +1,22 @@
-﻿Gripy Change log - (pt-br only)
-Atualizado em 26/09/2019 por Rafael (@rbscardini)
+﻿Gripy-X Change log
+==================
+
+Versão 0.1b:
+============
+- Remoção do sistema de plugins.
+- Atualização do README.md.
+- Remoção de arquivos desnecessários na pasta docs.
+
+
+
+Gripy Change log (histórico)
+============================
+
+Última atualização em 26/09/2019. Realizado fork para o Gripy-X em 29/10/2019.
 
 
 Versão 0.9.1.beta:
-================
+==================
 - Atualização da lib yapsy para versão 1.12.2
 
 

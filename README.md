@@ -34,7 +34,7 @@
 
     The main idea behind this repository is to keep a flavor of [**GriPy**](https://github.com/giruenf/GRIPy) 
     as a personal project. There will not be any compromises with [GIR](http://www.giruenf.net/) team and 
-    its goals (programmer freedom ;-)).
+    its goals (programmer freedom :wink:).
 
 
 ## Objetivos
@@ -48,7 +48,7 @@
     O objetivo da criação deste repositório é manter o vinculo criado com o software através 
     de um projeto pessoal. do execício livre de implementar algumas idéias de forma independente
     do software original, não havendo compromissos com prazos, metas da equipe [GIR](http://www.giruenf.net/),
-    retorno de código através de _pull requests_, etc (liberdade de programador ;-)).
+    retorno de código através de _pull requests_, etc (liberdade de programador :wink:).
 
 
 ## Licencing

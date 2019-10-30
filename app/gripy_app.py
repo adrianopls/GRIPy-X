@@ -16,7 +16,7 @@ from classes.ui import interface
 
 from app import DEFS 
 from app import log
-from app.gripy_plugin_manager import GripyPluginManagerSingleton
+#from app.gripy_plugin_manager import GripyPluginManagerSingleton
 
 
 class GripyApp(wx.App):
@@ -74,9 +74,9 @@ class GripyApp(wx.App):
         gripy_functions.register_app_functions()
         log.info('Registering Gripy internal functions ended.') 
         #
-        log.info('Starting Gripy plugin system...')
-        self._init_plugin_system()
-        log.info('Plugin system was initializated.') 
+#        log.info('Starting Gripy plugin system...')
+#        self._init_plugin_system()
+#        log.info('Plugin system was initializated.') 
         #
         
         self.load_app_interface()

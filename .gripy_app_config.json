@@ -6,14 +6,14 @@
         "use_best_visual": false
     }, 
     "app.gripy_app.GripyApp": {
-        "vendor_name": "GIR", 
-        "app_name": "GriPy", 
+        "vendor_name": "Adriano Santana", 
+        "app_name": "GriPy-X", 
         "class_name": "App.gripy_app.GripyApp", 
-        "vendor_display_name": "UENF/LENEP/GIR", 
-        "app_version": "0.9 Beta", 
-        "app_display_name": "GriPy 0.9 Beta - Powered with Python 3",
-        "app_UI_file": "user_data/.gripy_UI_appdata.json", 
-        "user_UI_file": "user_data/.gripy_UI_userdata.json", 
+        "vendor_display_name": "Adriano Santana", 
+        "app_version": "0.1b", 
+        "app_display_name": "GriPy-X 0.1b",
+        "app_UI_file": "user_data/.gripy_UI_appdata.json",
+        "user_UI_file": "user_data/.gripy_UI_userdata.json",
         "gripy_debug_file": "user_data/debug.gripy_console"
     }, 
     "logging": {

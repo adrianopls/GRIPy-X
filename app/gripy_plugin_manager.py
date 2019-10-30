@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-
-import sys
-
-import imp
 
 from app import log
 from lib.yapsy import NormalizePluginNameForModuleName

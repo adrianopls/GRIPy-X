@@ -4,6 +4,10 @@ A fork of [**GriPy**](https://github.com/giruenf/GRIPy), acronym (in portuguese)
 
 Um fork do projeto [**GriPy**](https://github.com/giruenf/GRIPy), acrônimo para Geofísica de Reservatório Interativa em Python, desenvolvido e mantido pelo Grupo de Inferência de Reservatório [(GIR)](http://www.giruenf.net/) da Universidade Estadual do Norte Fluminense [(UENF)](http://www.uenf.br/). A inclusão da letra X no nome se deve ao fato deste ser um _crossover_ projeto original.
 
+<p align="center">
+  <img src="/basic/icons/gripy_logo.jpg" width="350" title="hover text">
+</p>
+
 
 ## History
 
@@ -19,14 +23,14 @@ Como parte do trabalho desenvolvido em meu curso de mestrado, participei ativame
 
 After finishing my MSc, I will dedicate myself to new projects. [GIR](http://www.giruenf.net/) and [**GriPy**](https://github.com/giruenf/GRIPy) will be following its trail focusing in Reservoir Characterization, Probabilistic Petrophysical Modeling and Rock/Well log/Seismic Integration.
 
-The main idea behind this repository is to keep a flavor of [**GriPy**](https://github.com/giruenf/GRIPy) as a personal project. There will not be any compromises with [GIR](http://www.giruenf.net/) team and its goals (programmer freedom :wink:).
+The main idea behind this repository is to keep a flavor of [**GriPy**](https://github.com/giruenf/GRIPy) as a personal project. There will not be any compromises with [GIR](http://www.giruenf.net/) team and its goals (free programming :wink:).
 
 
 ## Objetivos
 
 Após a conclusão de meu mestrado e das metas definidas para essa fase, me dedicarei a outros projetos. Assim, o [GIR](http://www.giruenf.net/) seguirá com o desenvolvimento do software [**GriPy**](https://github.com/giruenf/GRIPy) visando a execução de estudos de caracterização e modelagem petrofísica probabilística com integração de dados e informações de rocha-perfil-sísmica.
 
-O objetivo da criação deste repositório é manter o vinculo criado com o software através de um projeto pessoal. do execício livre de implementar algumas idéias de forma independente do software original, não havendo compromissos com prazos, metas da equipe [GIR](http://www.giruenf.net/), retorno de código através de _pull requests_, etc (liberdade de programador :wink:).
+O objetivo da criação deste repositório é manter o vinculo criado com o software através de um projeto pessoal. do execício livre de implementar algumas idéias de forma independente do software original, não havendo compromissos com prazos, metas da equipe [GIR](http://www.giruenf.net/), retorno de código através de _pull requests_, etc (programação livre :wink:).
 
 
 ## Licencing

@@ -5,7 +5,7 @@ A fork of [**GriPy**](https://github.com/giruenf/GRIPy), acronym (in portuguese)
 Um fork do projeto [**GriPy**](https://github.com/giruenf/GRIPy), acrônimo para Geofísica de Reservatório Interativa em Python, desenvolvido e mantido pelo Grupo de Inferência de Reservatório [(GIR)](http://www.giruenf.net/) da Universidade Estadual do Norte Fluminense [(UENF)](http://www.uenf.br/). A inclusão da letra X no nome se deve ao fato deste ser um _crossover_ projeto original.
 
 <p align="center">
-  <img src="/basic/icons/gripy_logo.jpg" width="350" title="hover text">
+  <img src="/basic/icons/gripyX_logo_4.jpg" width="350" title="hover text">
 </p>
 
 

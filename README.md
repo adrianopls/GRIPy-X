@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adrianopls/GRIPy-X.svg?branch=master)](https://travis-ci.org/adrianopls/GRIPy-X)
+
 # GriPy-X
 
 A fork of [**GriPy**](https://github.com/giruenf/GRIPy), acronym (in portuguese) for Interactive Reservoir Geophysics, is a project developed by Grupo de Inferência de Reservatório [(GIR)](http://www.giruenf.net/) at Universidade Estadual do Norte Fluminense [(UENF)](http://www.uenf.br/). The inclusion of X letter indicates GriPy-X is a crossover of the original project.

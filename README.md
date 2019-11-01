@@ -52,7 +52,7 @@ Assim como o software original, este segue a modalidade de código aberto (_open
 * Matplotlib 3.1.1 (or greater)
 * SciPy 1.2.1 (cannot be greater)
 * pip (latest version)
-* wxPython 4.0.0 (or greater - using pip)
+* wxPython 4.0.7 (or greater - using pip)
 * Pypubsub 4.0.0 (or greater - using pip)
 
 
@@ -63,7 +63,7 @@ Assim como o software original, este segue a modalidade de código aberto (_open
 * Matplotlib 3.1.1 (ou maior)
 * SciPy 1.2.1 (não pode ser maior)
 * pip (versão mais recente)
-* wxPython 4.0.0 (ou maior - instalação via pip)
+* wxPython 4.0.7 (ou maior - instalação via pip)
 * Pypubsub 4.0.0 (ou maior - instalação via pip)
 
 Recomenda-se a utilização do [Anaconda](https://www.continuum.io/downloads), pois conta com todas as bibliotecas necessárias (exceto wxPython e Pypubsub), além de um ambiente de desenvolvimento completo.

@@ -91,8 +91,8 @@ def load():
         """    
         mwc = UIM.create('main_window_controller', 
                          title=gripy_app._gripy_app_state.get('app_display_name'),
-                         
-                         pos=(2000, 800), maximized=True
+                         #pos=(2000, 800), maximized=True
+                         pos=(100, 100), maximized=True
         )
 
        # """

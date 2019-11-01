@@ -6,7 +6,10 @@ from .base.data_mask import DataMaskController, DataMask
 from .base.frame import FrameController, Frame
 from .base.dialog import DialogController, Dialog
 from .base.utils import TextChoiceRenderer
+#                                                
+from .pg.propgrid import PropertyGridController, PropertyGridView
 #
+
 
 from .trackssplitter import MultiSplitterWindow
 from .wellplot_internal import WellPlotInternal
@@ -65,8 +68,6 @@ from .well_plot_prop_editor import LPETrackPanelController, \
                                                  LPETrackPanel
 from .well_plot_prop_editor import LPEObjectsPanelController, \
                                                  LPEObjectsPanel
-#                                                 
-from .propgrid import PropertyGridController, PropertyGridView
 #
 from .canvas_base import CanvasBaseController, CanvasBaseView                                         
 from .canvas_plotter import CanvasPlotterController, CanvasPlotter                

@@ -148,7 +148,7 @@ class EnumProperty(pg.EnumProperty, GripyPgProperty):
         #
 
                
-    def IntToValue(self, int_value, flag=0):
+    def IntToValue(self, variant, int_value, flag):
         """Given a wx.Choice integer index, get its associated value 
         (from opt_values) and set the object attribute with this value.
         
@@ -166,7 +166,9 @@ class EnumProperty(pg.EnumProperty, GripyPgProperty):
         ret_val : bool
             A value indicating operation was successful. 
         """        
-
+        
+        print(variant, int_value, flag)
+        
         opt_value = self._opt_values[int_value]    
         ret_val = self._set_value(opt_value)
         return True, opt_value

@@ -3121,7 +3121,9 @@ def on_import_segy_well_gather(event):
     dlg = UIM.create('dialog_controller', title='Import SEG-Y Well Gather') 
     #
     try:
-        ctn_file = dlg.view.AddCreateContainer('StaticBox', label='File', orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5)
+        ctn_file = dlg.view.AddCreateContainer('StaticBox', label='File', 
+            orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5
+        )
         dlg.view.AddFilePickerCtrl(ctn_file, proportion=0,
                 flag=wx.EXPAND|wx.TOP, border=5, widget_name='filename', 
                 wildcard="SEG-Y files (*.sgy)|*.sgy", path='',  
@@ -3130,28 +3132,70 @@ def on_import_segy_well_gather(event):
         #
         ctn = dlg.view.AddCreateContainer('BoxSizer', orient=wx.HORIZONTAL)
         #
-        ctn_iline_byte = dlg.view.AddCreateContainer('StaticBox', ctn, label='ILine', orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5)
-        dlg.view.AddTextCtrl(ctn_iline_byte, proportion=0, flag=wx.EXPAND|wx.TOP, border=5, widget_name='iline_byte', initial='9')
+        ctn_iline_byte = dlg.view.AddCreateContainer('StaticBox', ctn, 
+            label='ILine', orient=wx.VERTICAL, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5
+        )
+        dlg.view.AddTextCtrl(ctn_iline_byte, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5, widget_name='iline_byte', 
+            initial='9'
+        )
         #
-        ctn_xline_byte = dlg.view.AddCreateContainer('StaticBox', ctn, label='XLine', orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5)
-        dlg.view.AddTextCtrl(ctn_xline_byte, proportion=0, flag=wx.EXPAND|wx.TOP, border=5, widget_name='xline_byte', initial='21')        
+        ctn_xline_byte = dlg.view.AddCreateContainer('StaticBox', ctn, 
+            label='XLine', orient=wx.VERTICAL, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5
+        )
+        dlg.view.AddTextCtrl(ctn_xline_byte, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5, widget_name='xline_byte', 
+            initial='21'
+        )        
         #
-        ctn_offset_byte = dlg.view.AddCreateContainer('StaticBox', ctn, label='Offset', orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5)
-        dlg.view.AddTextCtrl(ctn_offset_byte, proportion=0, flag=wx.EXPAND|wx.TOP, border=5, widget_name='offset_byte', initial='37')            
+        ctn_offset_byte = dlg.view.AddCreateContainer('StaticBox', ctn, 
+            label='Offset', orient=wx.VERTICAL, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5
+        )
+        dlg.view.AddTextCtrl(ctn_offset_byte, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5, widget_name='offset_byte', 
+            initial='37'
+        )            
         #
-        ctn_where = dlg.view.AddCreateContainer('StaticBox', label='Where', orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5)
+        ctn_where = dlg.view.AddCreateContainer('StaticBox', label='Where', 
+            orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5
+        )
         #
-        ctn_where_iline = dlg.view.AddCreateContainer('StaticBox', ctn_where, label='ILine', orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5)
-        dlg.view.AddTextCtrl(ctn_where_iline, proportion=0, flag=wx.EXPAND|wx.TOP, border=5, widget_name='iline_number')
+        ctn_where_iline = dlg.view.AddCreateContainer('StaticBox', ctn_where, 
+            label='ILine', orient=wx.VERTICAL, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5
+        )
+        dlg.view.AddTextCtrl(ctn_where_iline, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5, widget_name='iline_number',
+            initial='808'
+        )
         #
-        ctn_where_xline = dlg.view.AddCreateContainer('StaticBox', ctn_where, label='XLine', orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5)
-        dlg.view.AddTextCtrl(ctn_where_xline, proportion=0, flag=wx.EXPAND|wx.TOP, border=5, widget_name='xline_number')
+        ctn_where_xline = dlg.view.AddCreateContainer('StaticBox', 
+            ctn_where, label='XLine', orient=wx.VERTICAL, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5
+        )
+        dlg.view.AddTextCtrl(ctn_where_xline, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5, widget_name='xline_number',
+            initial='1572'
+        )
         #
-        ctn_wells = dlg.view.AddCreateContainer('StaticBox', label='Well', orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5)
-        dlg.view.AddChoice(ctn_wells, proportion=0, flag=wx.EXPAND|wx.TOP, border=5,  widget_name='welluid', options=wells)     
+        ctn_wells = dlg.view.AddCreateContainer('StaticBox', label='Well', 
+            orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5
+        )
+        dlg.view.AddChoice(ctn_wells, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5,  widget_name='welluid', 
+            options=wells
+        )     
         #
-        ctn_gather = dlg.view.AddCreateContainer('StaticBox', label='Well gather name', orient=wx.VERTICAL, proportion=0, flag=wx.EXPAND|wx.TOP, border=5)
-        dlg.view.AddTextCtrl(ctn_gather, proportion=0, flag=wx.EXPAND|wx.TOP, border=5, widget_name='wellgather_name')
+        ctn_gather = dlg.view.AddCreateContainer('StaticBox', 
+            label='Well gather name', orient=wx.VERTICAL, proportion=0, 
+            flag=wx.EXPAND|wx.TOP, border=5
+        )
+        dlg.view.AddTextCtrl(ctn_gather, proportion=0, flag=wx.EXPAND|wx.TOP, 
+            border=5, widget_name='wellgather_name'
+        )
         #
         dlg.view.SetSize((460, 500))
         result = dlg.view.ShowModal()

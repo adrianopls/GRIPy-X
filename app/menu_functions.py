@@ -107,25 +107,25 @@ def on_create_well(*args):
         #
     #    
     c1 = dlg.view.AddCreateContainer('BoxSizer', ctn_index_base, orient=wx.HORIZONTAL, proportion=1, flag=wx.EXPAND|wx.ALL, border=5)
-    dlg.view.AddStaticText(c1, label='Type:', proportion=1, flag=wx.ALIGN_RIGHT)
+    dlg.view.AddStaticText(c1, label='Type:', proportion=1)
     dlg.view.AddChoice(c1, proportion=1, flag=wx.ALIGN_LEFT, widget_name='datatype', options=datatypes_)
     choice_datatype = dlg.view.get_object('datatype')
     choice_datatype.set_trigger(on_change_datatype)
     #
     c2 = dlg.view.AddCreateContainer('BoxSizer', ctn_index_base, orient=wx.HORIZONTAL, proportion=1, flag=wx.EXPAND|wx.ALL, border=5)
-    dlg.view.AddStaticText(c2, label='Name:', proportion=1, flag=wx.ALIGN_RIGHT)
+    dlg.view.AddStaticText(c2, label='Name:', proportion=1)
     dlg.view.AddTextCtrl(c2, proportion=1, flag=wx.ALIGN_LEFT, widget_name='index_name', initial='') 
     #
     c3 = dlg.view.AddCreateContainer('BoxSizer', ctn_index_base, orient=wx.HORIZONTAL, proportion=1, flag=wx.EXPAND|wx.ALL, border=5)
-    dlg.view.AddStaticText(c3, label='', widget_name='static_start', proportion=1, flag=wx.ALIGN_RIGHT)
+    dlg.view.AddStaticText(c3, label='', widget_name='static_start', proportion=1)
     dlg.view.AddTextCtrl(c3, proportion=1, flag=wx.ALIGN_LEFT, widget_name='start', initial='0.0')     
     #
     c4 = dlg.view.AddCreateContainer('BoxSizer', ctn_index_base, orient=wx.HORIZONTAL, proportion=1, flag=wx.EXPAND|wx.ALL, border=5)
-    dlg.view.AddStaticText(c4, label='', widget_name='static_end', proportion=1, flag=wx.ALIGN_RIGHT) 
+    dlg.view.AddStaticText(c4, label='', widget_name='static_end', proportion=1) 
     dlg.view.AddTextCtrl(c4, proportion=1, flag=wx.ALIGN_LEFT, widget_name='end', initial='5000.0')  
     #
     c5 = dlg.view.AddCreateContainer('BoxSizer', ctn_index_base, orient=wx.HORIZONTAL, proportion=1, flag=wx.EXPAND|wx.ALL, border=5)
-    dlg.view.AddStaticText(c5, label='', widget_name='static_sampling', proportion=1, flag=wx.ALIGN_RIGHT)    
+    dlg.view.AddStaticText(c5, label='', widget_name='static_sampling', proportion=1)    
     dlg.view.AddTextCtrl(c5, proportion=1, flag=wx.ALIGN_LEFT, widget_name='ts', initial='4.0')  
     #
     choice_datatype.set_value(0, True)
@@ -194,11 +194,11 @@ def no_well_found_dialog(*args, **kwargs):
     msg = 'This project has not a well. Create one?'
     ret_val = wx.MessageBox(msg, 'Warning', wx.ICON_EXCLAMATION | wx.YES_NO)    
     if ret_val == wx.YES:
-        try:
-            well = on_create_well()
-            return well
-        except:
-            pass
+        #try:
+        well = on_create_well()
+        return well
+        #except:
+        #    pass
     return None
 
 
